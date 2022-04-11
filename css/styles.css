@@ -1,0 +1,260 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: Raleway;
+  --color-blue: #2196f3;
+  --color-black: #212121;
+}
+
+body {
+  font-family: var(--main-font);
+  background-color: #ffffff;
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--color-black);
+}
+
+/* index */
+
+/*header*/
+.header {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+.logo-top {
+  color: var(--color-blue);
+}
+
+.logo-top-span {
+  color: #000000;
+}
+
+.menu,
+.menu-studio,
+.menu-portfolio,
+.menu-contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  list-style: none;
+}
+
+.menu-studio-span:hover {
+  color: var(--color-blue);
+}
+.menu-studio-span {
+  color: var(--color-black);
+}
+
+.menu-portfolio-span:hover {
+  color: var(--color-blue);
+}
+.menu-portfolio-span {
+  color: var(--color-black);
+}
+
+.menu-contact-span:hover {
+  color: var(--color-blue);
+}
+.menu-contact-span {
+  color: var(--color-black);
+}
+
+.contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  list-style: none;
+}
+
+.contact-tel-span {
+  white-space: nowrap;
+}
+.contact-mail-span:hover {
+  color: var(--color-blue);
+}
+.contact-mail-span {
+  color: #757575;
+}
+.contact-tel-span:hover {
+  color: var(--color-blue);
+}
+.contact-tel-span {
+  color: #757575;
+}
+.contact-tel-span:focus-visible {
+  background-color: var(--color-blue);
+}
+
+/*main*/
+
+.middle-text {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.middle-button {
+  font-family: var(--main-font);
+  background-color: var(--color-blue);
+  color: #ffffff;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.middle-button:hover {
+  background-color: #188ce8;
+}
+
+.doing {
+  list-style: none;
+}
+
+.doing-topic {
+  font-size: 14px;
+  line-height: 1.14;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-black);
+}
+
+.doing-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.wearedoing-pic {
+  list-style: none;
+}
+
+.wearedoing-text {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.teamour {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.worker {
+  list-style: none;
+}
+
+.worker-text {
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.worker-job {
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/*footer*/
+
+.footer {
+  list-style: none;
+}
+
+.logo-button-design {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  color: var(--color-blue);
+}
+
+.logo-button-design-span {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.map {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.mail,
+.fon {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.fon:hover {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* portfolio */
+
+.button {
+  list-style: none;
+}
+
+.portfoliobutton {
+  font-family: var(--main-font);
+  background-color: #f5f4fa;
+  color: var(--color-black);
+  cursor: pointer;
+  font-weight: 500;
+  line-height: 1.62px;
+  text-align: center;
+}
+
+.portfoliobutton:hover {
+  background-color: var(--color-blue);
+}
+
+.portfoliopic {
+  list-style: none;
+}
+
+.portfolio-titel {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-text {
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
